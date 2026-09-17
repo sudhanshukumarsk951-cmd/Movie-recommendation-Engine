@@ -1,0 +1,11 @@
+@startuml
+actor User
+User --> MainFrame
+MainFrame --> MovieRepository
+MainFrame --> RecommendationEngine
+MainFrame --> CsvDataStore
+RecommendationEngine --> TfIdfVectorizer
+MovieRepository --> Movie
+MovieRepository --> User
+MainFrame --> AnalyticsService
+@enduml
