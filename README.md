@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Movie Recommendation Engine
 
 A Java 26 Swing desktop application for a college project. It uses CSV persistence and a content-based recommendation engine using TF-IDF vectors and cosine similarity.
@@ -82,4 +82,3 @@ These preferences are saved in `data/users.csv` and are used by the TF-IDF/cosin
 =======
 # Movie-recommendation-Engine
 A Java-based Movie Recommendation Engine with a Swing GUI, using TF-IDF and Cosine Similarity for personalized content-based recommendations, with 200+ movies, 100 users, search, ratings, watch history, analytics, CRUD operations, CSV persistence, and automated tests.
->>>>>>> ea22ea0780a31124c1dc033c32a13da833c645b6
